@@ -1,0 +1,144 @@
+.bottomDiv{
+    position: absolute;
+    bottom: 10px;
+    left: 6%;
+    font-weight:400;
+    /* margin-left: 50px; */
+    transform: translateX(-50%);
+    color: white; 
+    font-size: 13px;
+}
+.span-font{
+   font-size: 11px;
+   font-weight: 400;
+}
+.image{
+  height:45px;
+}
+.name{
+  font-size: 13px;
+  font-weight: 700;
+}
+.card{
+  display: flex;
+  margin-left: 350px;
+  width: 600px;
+  height: 600px;
+  background-color: whitesmoke;
+  margin-top: 200px;
+
+}
+.card-main{
+  height: 500px;
+  width: 800px;
+  margin-top: 100px;
+  border-radius: 10px;
+
+}
+.prevIcon{
+    margin-top: 330px;
+    border-radius: 50px;
+    background-color: rgb(115, 108, 108,0.6);
+    padding: 15px;
+    font-weight: 700;
+    margin-left: 165px;
+    color: white; 
+    transition: transform 0.3s ease;
+}
+.prevIcon:hover{
+  background-color: yellow;
+  color: black;
+  transform:scale(1) ;
+}
+.nextIcon:hover{
+  transform:scale(1.1);
+}
+.nextIcon{
+  margin-top: 330px;
+  background-color:yellow;
+  border-radius: 28px;
+  padding: 15px;
+  font-weight: 700;
+  margin-right: 165px;
+  transition: transform 0.2s ease;
+}
+.card-question{
+  height: 120px;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 150px;
+  font-weight: 600;
+}
+.card-answer{
+  font-size: 30px;
+  font-weight: 600;
+}
+.handtap{
+  padding-left: 10px;
+  font-weight: 400;
+}
+.card-para{
+  margin-top: 50px;
+  cursor: pointer;
+   font-weight: 500;
+}
+.card-image{
+  height: 450px;
+  width: 780px;
+  align-items: center;
+  border-radius: 10px;
+  margin-top: 6px;
+}
+/* Add this CSS to your existing stylesheet */
+.rotate-icon {
+  transition: transform 0.3s ease; /* Transition for smooth rotation */
+}
+.rotate-icon:hover {
+  transform: rotate(360deg) scale(1.2); /* Rotate the button 360 degrees on hover */
+}
+.checkcircle{
+  margin-top:140px;
+  font-weight: 300;
+}
+.checkcircle-data{
+  font-weight: 400;
+}
+.play-again-button {
+  background-color: yellow !important;
+  border: none; /* Remove border if desired */
+  color: black; 
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 25px;
+  font-weight: 800;
+  width: 150px;
+}
+
+.play-again-button:hover {
+  background-color: #e0e000 !important; /* Slightly darker yellow on hover */
+}
+/* customCarousel.css */
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.zoom-animation {
+  animation: zoom 15s infinite;
+}
+@keyframes moveBackground {
+  0% {
+      transform: translate(0, 0);
+  }
+  100% {
+      transform: translate(-50%, -50%);
+  }
+}
+
